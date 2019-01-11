@@ -1,0 +1,10 @@
+images_volumes/0/1.mat item_seg/0/1.png liver_seg/0/1.png images_volumes/0/2.mat item_seg/0/2.png liver_seg/0/2.png images_volumes/0/3.mat item_seg/0/3.png liver_seg/0/3.png 0.000132 0.028108
+images_volumes/0/2.mat item_seg/0/2.png liver_seg/0/2.png images_volumes/0/3.mat item_seg/0/3.png liver_seg/0/3.png images_volumes/0/4.mat item_seg/0/4.png liver_seg/0/4.png 0.000132 0.028108
+images_volumes/0/3.mat item_seg/0/3.png liver_seg/0/3.png images_volumes/0/4.mat item_seg/0/4.png liver_seg/0/4.png images_volumes/0/5.mat item_seg/0/5.png liver_seg/0/5.png 0.000132 0.028108
+images_volumes/0/4.mat item_seg/0/4.png liver_seg/0/4.png images_volumes/0/5.mat item_seg/0/5.png liver_seg/0/5.png images_volumes/0/6.mat item_seg/0/6.png liver_seg/0/6.png 0.000132 0.028108
+images_volumes/0/5.mat item_seg/0/5.png liver_seg/0/5.png images_volumes/0/6.mat item_seg/0/6.png liver_seg/0/6.png images_volumes/0/7.mat item_seg/0/7.png liver_seg/0/7.png 0.000132 0.028108
+images_volumes/0/6.mat item_seg/0/6.png liver_seg/0/6.png images_volumes/0/7.mat item_seg/0/7.png liver_seg/0/7.png images_volumes/0/8.mat item_seg/0/8.png liver_seg/0/8.png 0.000132 0.028108
+images_volumes/0/7.mat item_seg/0/7.png liver_seg/0/7.png images_volumes/0/8.mat item_seg/0/8.png liver_seg/0/8.png images_volumes/0/9.mat item_seg/0/9.png liver_seg/0/9.png 0.000132 0.028108
+images_volumes/0/8.mat item_seg/0/8.png liver_seg/0/8.png images_volumes/0/9.mat item_seg/0/9.png liver_seg/0/9.png images_volumes/0/10.mat item_seg/0/10.png liver_seg/0/10.png 0.000132 0.028108
+images_volumes/0/9.mat item_seg/0/9.png liver_seg/0/9.png images_volumes/0/10.mat item_seg/0/10.png liver_seg/0/10.png images_volumes/0/11.mat item_seg/0/11.png liver_seg/0/11.png 0.000132 0.028108
+images_volumes/0/10.mat item_seg/0/10.png liver_seg/0/10.png images_volumes/0/11.mat item_seg/0/11.png liver_seg/0/11.png images_volumes/0/12.mat item_seg/0/12.png liver_seg/0/12.png 0.000132 0.028108
