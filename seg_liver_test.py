@@ -21,11 +21,11 @@ number_slices = 3
 task_name = 'seg_liver_ck'
 
 database_root = os.path.join(root_folder, 'LiTS_database')
-logs_path = os.path.join(root_folder, 'train_files', task_name, 'networks')
+logs_path = os.path.join(root_folder, '../gdrive/My Drive/train_files', task_name, 'networks')
 result_root = os.path.join(root_folder, 'results')
 model_name = os.path.join(logs_path, "seg_liver.ckpt")
 
-test_file = os.path.join(root_folder, 'seg_DatasetList/testing_volume_1.txt')
+test_file = os.path.join(root_folder, 'seg_DatasetList/testing_volume_2.txt')
 
 dataset = Dataset(None, test_file, None, database_root, number_slices, store_memory=False)
 

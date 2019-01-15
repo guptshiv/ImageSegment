@@ -35,11 +35,11 @@ values = [ini_learning_rate, ini_learning_rate * 0.1, ini_learning_rate, ini_lea
 task_name = 'seg_lesion'
 
 database_root =  os.path.join(root_folder, 'LiTS_database')
-logs_path = os.path.join(root_folder, 'train_files', task_name, 'networks')
-imagenet_ckpt = os.path.join(root_folder, 'train_files', 'vgg_16.ckpt')
+logs_path = os.path.join(root_folder, '../gdrive/My Drive/train_files', task_name, 'networks')
+imagenet_ckpt = os.path.join(root_folder, '../gdrive/My Drive/train_files', 'vgg_16.ckpt')
 
-train_file = os.path.join(root_folder, 'seg_DatasetList', 'training_lesion_commonbb_nobackprop_3.txt')
-val_file = os.path.join(root_folder, 'seg_DatasetList', 'testing_lesion_commonbb_nobackprop_3.txt')
+train_file = os.path.join(root_folder, 'seg_DatasetList', 'training_lesion_commonbb_nobackprop_2.txt')
+val_file = os.path.join(root_folder, 'seg_DatasetList', 'testing_lesion_commonbb_nobackprop_2.txt')
 
 dataset = Dataset(train_file, None, val_file, database_root, number_slices, store_memory=False)
 

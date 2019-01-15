@@ -21,13 +21,13 @@ gpu_id = 0
 task_name = 'det_lesion_ck'
 
 database_root = os.path.join(root_folder, 'LiTS_database')
-logs_path = os.path.join(root_folder, 'train_files', task_name, 'networks')
+logs_path = os.path.join(root_folder, '../gdrive/My Drive/train_files', task_name, 'networks')
 result_root = os.path.join(root_folder, 'detection_results/')
 
 model_name = os.path.join(logs_path, "det_lesion.ckpt")
 
-val_file_pos = os.path.join(root_folder, 'det_DatasetList', 'testing_positive_det_patches.txt')
-val_file_neg = os.path.join(root_folder, 'det_DatasetList', 'testing_negative_det_patches.txt')
+val_file_pos = os.path.join(root_folder, 'det_DatasetList', 'testing_positive_det_patches56.txt')
+val_file_neg = os.path.join(root_folder, 'det_DatasetList', 'testing_negative_det_patches56.txt')
 
 dataset = Dataset(None, None, val_file_pos, val_file_neg, None, database_root, store_memory=False)
 

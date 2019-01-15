@@ -29,13 +29,13 @@ learning_rate = 0.01
 task_name = 'det_lesion'
 
 database_root = os.path.join(root_folder, 'LiTS_database')
-logs_path = os.path.join(root_folder, 'train_files', task_name, 'networks')
-resnet_ckpt = os.path.join(root_folder, 'train_files', 'resnet_v1_50.ckpt')
+logs_path = os.path.join(root_folder, '../gdrive/My Drive/train_files', task_name, 'networks')
+resnet_ckpt = os.path.join(root_folder, '../gdrive/My Drive/train_files', 'resnet_v1_50.ckpt')
 
-train_file_pos = os.path.join(root_folder, 'det_DatasetList', 'training_positive_det_patches_data_aug.txt')
-train_file_neg = os.path.join(root_folder, 'det_DatasetList', 'training_negative_det_patches_data_aug.txt')
-val_file_pos = os.path.join(root_folder, 'det_DatasetList', 'testing_positive_det_patches_data_aug.txt')
-val_file_neg = os.path.join(root_folder, 'det_DatasetList', 'testing_negative_det_patches_data_aug.txt')
+train_file_pos = os.path.join(root_folder, 'det_DatasetList', 'training_positive_det_patches_data_aug56.txt')
+train_file_neg = os.path.join(root_folder, 'det_DatasetList', 'training_negative_det_patches_data_aug56.txt')
+val_file_pos = os.path.join(root_folder, 'det_DatasetList', 'testing_positive_det_patches_data_aug56.txt')
+val_file_neg = os.path.join(root_folder, 'det_DatasetList', 'testing_negative_det_patches_data_aug56.txt')
 
 dataset = Dataset(train_file_pos, train_file_neg, val_file_pos, val_file_neg, None, None, database_root=database_root,
                   store_memory=False)
