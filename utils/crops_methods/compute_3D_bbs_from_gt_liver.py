@@ -8,7 +8,7 @@ import scipy.io
 
 MIN_AREA_SIZE = 512.0*512.0
 
-crops_list_name = 'crops_LiTS_gt_2.txt'
+crops_list_name = 'crops_LiTS_gt.txt'
 
 database_root = '../../LiTS_database/'
 
