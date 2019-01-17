@@ -439,7 +439,7 @@ def validate(dataset, checkpoint_path, result_path, number_slices=1, config=None
         
         # Test positive windows
         count_patches = 0
-        for frame in range(0, pos_size/batch_size + (pos_size % batch_size > 0)):
+        for frame in range(0, pos_size//batch_size + (pos_size % batch_size > 0)):
             img, label, x_bb, y_bb = dataset.next_batch(batch_size, 'val', 1)
             curr_ct_scan = img[0]
             print('Testing ' + curr_ct_scan)
